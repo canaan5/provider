@@ -1,0 +1,26 @@
+{
+    "name": "canaan5/provider",
+    "description": "Innovating Service Provider Component",
+    "license": "MIT",
+    "homepage": "https://github.com/canaan5/provider",
+    "support": {
+        "issues": "https://github.com/canaan5/innovating/issues",
+        "source": "https://github.com/canaan5/innovating"
+    },
+    "authors": [
+        {
+            "name": "Canaan Etaigbenu",
+            "email": "kestylove5@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "canaan5/container": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Innovating\\Provider\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
